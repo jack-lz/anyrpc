@@ -1,0 +1,3 @@
+1、可以参考https://github.com/AlbrechtL/anyrpc
+2、两个进程都建立server和client端，如此，便可以相互调用。
+3、std::function不行，就使用static函数的函数指针作为注册函数。
